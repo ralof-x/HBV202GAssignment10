@@ -3,8 +3,9 @@ package is.hi.hbv202g.ass9.compositeLeafObservedByComposite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MultiplyComposite implements MathExpression {
+public class MultiplyComposite implements MathExpression, Observer {
     private List<MathExpression> children = new ArrayList<>();
+    private int lastObservedResult;
 
 
     public int getResult() {
@@ -28,5 +29,11 @@ public class MultiplyComposite implements MathExpression {
 
     public List<MathExpression> getChildren() {
         return children;
+    }
+
+    @Override
+    public void update() {
+        lastObservedResult = getResult();
+        System.out.println(lastObservedResult);
     }
 }
