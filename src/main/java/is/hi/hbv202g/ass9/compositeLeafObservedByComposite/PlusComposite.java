@@ -32,6 +32,10 @@ public class PlusComposite implements MathExpression, Observer {
         lastObservedResult = getResult();
         System.out.println(lastObservedResult);
     }
+
+    public int getLastObservedResult() {
+        return lastObservedResult;
+    }
 }
 
 

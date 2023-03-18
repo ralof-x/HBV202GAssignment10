@@ -31,9 +31,13 @@ public class MultiplyComposite implements MathExpression, Observer {
         return children;
     }
 
-    @Override
+    // @Override
     public void update() {
         lastObservedResult = getResult();
         System.out.println(lastObservedResult);
+    }
+
+    public int getLastObservedResult() {
+        return lastObservedResult;
     }
 }
