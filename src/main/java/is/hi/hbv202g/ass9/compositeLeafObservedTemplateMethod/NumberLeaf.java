@@ -8,6 +8,11 @@ public class NumberLeaf extends Observable implements MathExpression {
         notifyObservers();
     }
 
+    public void setValue(int number) {
+        this.number = number;
+        notifyObservers();
+    }
+
     public NumberLeaf(int number) {
         this.number = number;
     }
