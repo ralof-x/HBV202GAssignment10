@@ -96,6 +96,13 @@
                     <mainClass>is.hi.hbv202g.ass9.composite.Main</mainClass>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>is.hi.hbv202g.ass9.CompositeMain</mainClass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
