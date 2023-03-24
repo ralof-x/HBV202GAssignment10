@@ -14,8 +14,12 @@ Both the implementation and the tests are in Java package `is.hi.hbv202g.ass9`, 
   - `is.hi.hbv202g.ass9.compositeLeafObservedByComposite`: Test cases testing an implementation of a composite where the leafs are observed by the composite implementation.
   - `is.hi.hbv202g.ass9.compositeLeafObservedTemplateMethod`: The same test cases for testing the refactoring of the above patterns inspired by the template method pattern.
 
-Maven:
+### Maven:
 
 - `mvn compile` compiles all implementation classes.
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends with `Test`, `Tests`, or `TestCase`).
 - `mvn exec:java` runs the main class and shows its output.
+
+### More:
+
+- [License](LICENSE.md)
