@@ -24,6 +24,7 @@ Both the implementation and the tests are in Java package `is.hi.hbv202g.ass9`, 
 
 - [License](LICENSE.md)
 - added a new change
-- I do not yet know, whether this will be reflected in the src/site/markdown/README.md
+- I do not yet know whether this will be reflected in the src/site/markdown/README.md
   - because this is a link...
 - but I added more information anyway
+- [Documentation](src/site/markdown/documentation.md)
