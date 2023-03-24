@@ -19,6 +19,9 @@ Both the implementation and the tests are in Java package `is.hi.hbv202g.ass9`, 
 - `mvn compile` compiles all implementation classes.
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends with `Test`, `Tests`, or `TestCase`).
 - `mvn exec:java` runs the main class and shows its output.
+- `mvn package` to create the jar file for running the program.
+- use `java -cp target/ass9-1.0-SNAPSHOT.jar is.hi.hbv202g.ass9.CompositeMain` if you are on a *nix system.
+  - if you are on Windows: may God help you!
 
 ### More:
 
